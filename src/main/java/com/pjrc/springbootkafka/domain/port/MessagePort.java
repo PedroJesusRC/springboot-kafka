@@ -1,6 +1,8 @@
 package com.pjrc.springbootkafka.domain.port;
 
+import com.pjrc.springbootkafka.domain.model.Message;
+
 public interface MessagePort {
 
-    void sendMessage(String message);
+    void sendMessage(Message message);
 }
